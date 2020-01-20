@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="CSS\Blank-Styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+        <link href="bootstrap.css" rel="stylesheet" type="text/css">
+        <style>
+
+            .center_div{
+                margin:0 auto;
+                width:600px;
+                height:330px;
+                border-radius:10px;
+
+            }
+            .form-group{
+                text-align:center;
+            }
+            .form-control{
+               
+                background-color:whitesmoke;
+            }
+        </style>
+    </head>
+    <body style="background-color:whitesmoke;">
+       <div class="header">
+        <a href="Home.html" style="text-decoration: none; font-size: 60px; margin-left: 20px; color: black"><i class="fa fa-graduation-cap"></i></a><br>
+        <h2 id="logo">BlankLearn</h2>
+        <p id="uni">Online E-Learning platform for everyone</p>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a class="active" href="Home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Tutorial</a>
+                <div class="dropdown-content">
+                    <a href="C:\xampp\htdocs\BlankLearn\Tutorials\C.html" id="links">C</a>
+                    <a href="C:\xampp\htdocs\BlankLearn\Tutorials\C++.html" id="links">C++</a>
+                    <a href="C:\xampp\htdocs\BlankLearn\Tutorials\Core-JAVA.html" id="links">JAVA</a>
+                </div>
+            </li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="http://localhost/BlankLearn/Online-Compiler-Windows-Server-master/index.php">Practice</a></li>
+            <li style="float: right;"><a href="SignUp.html">New User</a></li>
+        </ul>
+    </div>
+       <div class="row" style="height:30px;"></div>
+         <div class="container center_div">
+         <form class="form-group" action="login.php" method="post">
+            <div class="form-row">
+                <label class="h1" style="font-family:monospace; margin-left:50px; margin-top:10px;">
+                    Login Here</label>
+            </div>
+            
+            <div style="height:35px;"></div>
+            <div class="form-row" style="margin:0px 20px 0px 20px;">
+                <label class="h3" style="font-family: monospace">
+                    Enter your UserName</label>
+            </div>
+            <div class="form-row" style="margin:0px 20px 0px 20px;">
+                <input type="text" class="form-control" name="login_uname" placeholder="Name"/>
+            </div>
+            <div style="height:15px;"></div>
+            
+            <div class="form-row" style="margin:0px 20px 0px 20px;">
+                <label class="h3" style="font-family: monospace">Enter Password</label>
+            </div>
+            <div class="form-row" style="margin:0px 20px 0px 20px;">
+                <input type="password" class="form-control" name="login_pswd" placeholder="Roll no"/>
+            </div>
+            <div style="height:35px;"></div>
+            
+            
+            <div class="form-row" >
+                <input type="submit" class="btn btn-primary" value="Submit"/>
+            </div>
+            
+        </form> 
+        </div>
+
+    </body>
+</html>
