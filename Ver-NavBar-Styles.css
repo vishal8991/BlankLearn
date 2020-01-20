@@ -1,0 +1,25 @@
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 10%;
+	position: fixed;
+	height: 100%;
+	background-color: lightgray;
+}
+li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 8px 16px;
+	text-align: center;
+	border: 1px solid black;
+}
+li a.active{
+	background-color: green;
+	color: white;
+}
+li a:hover:not(.active){
+	background-color: black;
+	color: white;
+}

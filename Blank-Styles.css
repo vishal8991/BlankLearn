@@ -1,0 +1,137 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background-image: url('https://img.freepik.com/free-vector/vibrant-pink-watercolor-painting-background_53876-58930.jpg?size=626&ext=jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.header{
+	background-color: rgba(0, 255, 0, 0.1);
+	padding: 10px;
+}
+#uni{
+	font-size: 12px;
+	font-family: Georgia;
+	text-align: right;
+}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer
+}
+.w3-badge {
+	height:13px;width:13px;padding:0
+}
+#logo{
+	font-family: Oswald;
+	margin-top: -20px;
+	margin-bottom: -30px;
+	font-size: 30px;
+}
+#about{
+	font-size: 14px; 
+	font-family: Verdana;  
+	text-align: justify;
+	padding: 10px;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(10, 20, 20);
+	overflow: hidden;
+	overflow: hidden;
+	width: 100%;
+	left: 0;
+	right: 0;
+	position: sticky;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-family: verdana;
+	font-size: 14px;
+	padding: 14px 18px;
+	color: white;
+}
+li a.active{
+	background-color: green;
+	color: white;
+	text-decoration: none;
+}
+li a:hover:not(.active){
+	text-decoration: none;
+	background-color: gray;
+	color: white;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	background-color: black;
+	color: white;
+	min-width: 150px;
+	padding: 12px 16px;
+	z-index: 1;
+	text-align: center;
+}
+.dropdown-content #links:hover{
+      background-color: gray;
+      text-decoration: none;
+    }
+    .dropdown:hover .dropdown-content{
+      display: block;
+    }
+#intro #about{
+	color: rgba(0, 0, 255, 0.4);
+	text-align: justify;
+	font-size: 16px;
+	font-family: Verdana;
+	color: white;
+}
+.mySlides {display:none;}
+.column{
+	float: left;
+	margin: 0;
+	width: 33.33%; 
+	height: 300px;
+	border: 8px groove white;
+	color: white;
+	font-size: 20px;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+
+}
+#cpp{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%; 
+}
+@media screen and (max-width:600px) {
+			.column {
+    		width: 100%;
+  			}
+		}
+.footer {
+  background-color: rgba(225, 54, 46, 0.6);
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-family: Times New Roman;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  position: static;
+}
